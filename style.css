@@ -216,6 +216,7 @@ body {
       padding-left: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
+      border-right-width: 0;
     }
 
     .end {
@@ -294,3 +295,18 @@ body {
       margin-left: 17px;
       margin-right: 17px;
     }
+
+    .input:focus {
+      outline: none;
+    }
+
+    .donat:hover {
+      background-color: #f39a67;
+      cursor:context-menu;
+  }
+
+  .sing:hover {
+    background-color: #f39a67;
+    cursor:context-menu;
+    border-color: #f39a67;
+  }
